@@ -24,7 +24,7 @@
     }
   ],
   "main": "./lib/index",
-  "browser": {
+  "__browser": {
     "readable-stream": "./lib/readable-stream-browser.js",
     "./lib/index": "./dist/jszip.min.js"
   },
