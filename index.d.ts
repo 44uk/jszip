@@ -124,6 +124,8 @@ declare namespace JSZip {
             level: number;
         };
         type?: T;
+        password?: string;
+        encryptStrength?: number;
         comment?: string;
         /**
          * mime-type for the generated file.
